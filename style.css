@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    background-image: url('./v2osk-PaNxe-QJwhE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    backdrop-filter: blur(10px);          /* Blurred background effect */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #4A90E2; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Subtle shadow */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #596D48; /* Button color from the prompt */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4f5f3f; /* Slightly darker on hover */
+}

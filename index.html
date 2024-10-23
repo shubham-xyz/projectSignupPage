@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="form-container">
+        <form id="infoForm">
+            <h2>Create Your Account</h2>
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+" title="First name should only contain letters.">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+" title="Last name should only contain letters.">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required title="Enter a valid email address.">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" title="Phone number should be 10 digits long.">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required minlength="8" title="Password should be at least 8 characters long.">
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>
