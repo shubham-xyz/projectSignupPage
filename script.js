@@ -4,6 +4,6 @@ document.getElementById('infoForm').addEventListener('submit', function(event) {
 
     if (password !== confirmPassword) {
         alert("Passwords do not match!");
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
     }
 });
