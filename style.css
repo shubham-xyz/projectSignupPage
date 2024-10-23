@@ -76,7 +76,7 @@ input:focus {
 button {
     padding: 10px;
     border: none;
-    background-color: #596D48; /* Button color from the prompt */
+    background-color: #000000; /* Button color from the prompt */
     color: white;
     border-radius: 5px;
     cursor: pointer;
